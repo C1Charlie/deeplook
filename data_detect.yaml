@@ -1,0 +1,12 @@
+path: ./content/data
+train: train/images
+val: validation/images
+nc: 7
+names:
+- Base Misassembly
+- Cover Misassembly
+- Cover Missing
+- Crack
+- Damage
+- Molding Defect
+- Pin Misassembly

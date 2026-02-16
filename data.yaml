@@ -1,0 +1,12 @@
+path: ./content/data
+train: train/images
+val: validation/images
+nc: 7
+names:
+- "\u57FA\u5EA7\u9519\u88C5"
+- "\u6210\u578B\u4E0D\u826F"
+- "\u65AD\u88C2"
+- "\u76D6\u677F\u6F0F\u88C5"
+- "\u76D6\u677F\u9519\u88C5"
+- "\u7F3A\u635F"
+- "\u9500\u5B50\u9519\u88C5"

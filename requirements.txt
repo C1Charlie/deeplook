@@ -1,0 +1,2 @@
+# Core
+ultralytics>=8.2.0
