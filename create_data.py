@@ -39,7 +39,7 @@ def create_data_yaml(path_to_classes_txt, path_to_data_yaml):
 
 if __name__ == '__main__':
     # Define path to classes.txt and run function
-    path_to_classes_txt = './exported_files/project-2-at-2026-02-14-00-59-b5c11a2a/classes.txt'
+    path_to_classes_txt = './project-2-at-2026-02-25-11-09-225d8700/classes.txt'
     path_to_data_yaml = 'data_detect.yaml'
 
     create_data_yaml(path_to_classes_txt, path_to_data_yaml)

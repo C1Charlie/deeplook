@@ -1,7 +1,7 @@
 path: ./content/data
 train: train/images
 val: validation/images
-nc: 7
+nc: 8
 names:
 - Base Misassembly
 - Cover Misassembly
@@ -10,3 +10,4 @@ names:
 - Damage
 - Molding Defect
 - Pin Misassembly
+- Untrimmed
