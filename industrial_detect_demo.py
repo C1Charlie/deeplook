@@ -5,8 +5,8 @@ from ultralytics import YOLO
 # =============================
 # 1️⃣ 加载模型
 # =============================
-model = YOLO("./runs/detect/train9/weights/best.pt")   # 替换成你的模型路径
-
+model = YOLO("./runs/detect/train11/weights/best.pt")   # 替换成你的模型路径
+#model = YOLO("./detect/train3/weights/best.pt")   # 替换成你的模型路径
 # =============================
 # 2️⃣ 打开双摄像头
 # =============================
