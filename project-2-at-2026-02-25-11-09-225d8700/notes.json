@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Base Misassembly"
+    },
+    {
+      "id": 1,
+      "name": "Cover Misassembly"
+    },
+    {
+      "id": 2,
+      "name": "Cover Missing"
+    },
+    {
+      "id": 3,
+      "name": "Crack"
+    },
+    {
+      "id": 4,
+      "name": "Damage"
+    },
+    {
+      "id": 5,
+      "name": "Molding Defect"
+    },
+    {
+      "id": 6,
+      "name": "Pin Misassembly"
+    },
+    {
+      "id": 7,
+      "name": "Untrimmed"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

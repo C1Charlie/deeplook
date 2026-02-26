@@ -15,8 +15,8 @@ cam1 = cv2.VideoCapture(1)
 
 # 可选：设置分辨率
 for cam in [cam0, cam1]:
-    cam.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-    cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+    cam.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+    cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
 # =============================
 # 3️⃣ 主循环
@@ -32,8 +32,8 @@ while True:
     # =============================
     # 4️⃣ YOLO 推理
     # =============================
-    results0 = model(frame0, conf=0.4)
-    results1 = model(frame1, conf=0.4)
+    results0 = model(frame0, conf=0.6)
+    results1 = model(frame1, conf=0.6)
 
     # =============================
     # 5️⃣ 处理检测结果
